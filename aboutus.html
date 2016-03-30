@@ -1,29 +1,119 @@
-<?php //首页
-require 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport"
+          content="width=device-width,initial-scale=1.0,
+                maximum-scale=1.0,user-scalable=no">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="lib/HTML5-Reset/assets/css/reset.css" />
+    <link rel="stylesheet" href="lib/OwlCarousel2/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="lib/OwlCarousel2/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fm.revealator.jquery.css">
+    <script src="js/fm.revealator.jquery.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/imagehover.css" />
+    <link type="text/css" rel="stylesheet" href="css/hover.css">
+</head>
+<body>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+
+<header class="header">
+    <div class="header-top">
+        <div class="header-top-left">
+            <a href="" class="">
+                <img src="images/mouse.png">
+            </a>
+            <div class="header-con">
+                Investment Company Respo...<a href="">#56053</a>
+            </div>
+        </div>
+        <div class="header-top-middle">
+            <a class="computer" href="">
+                <img src="images/computer.png">
+            </a>
+            <a class="ipad" href="">
+                <img src="images/ipad.png">
+                <img src="images/ipad-cir.png">
+            </a>
+            <a class="" href="">
+                <img src="images/iphone.png">
+                <img src="images/iphone-cir.png">
+            </a>
+        </div>
+        <div class="header-top-right">
+            <a class="top-left" href="">Single Site License</a>
+            <a class="top-right" href="">$199
+            </a>
+            <img src="images/buynow.png">
+        </div>
+    </div>
+    <div  class="header-up-down">
+        <img src="images/up.png">
+    </div>
+    <div class="header-middle">
+        <a href="" class="">
+            <img src="images/bottom2.png">
+        </a>
+        <a href="" class="">
+            <div class="stock-top">Stocx</div>
+            <h3>STOCK MARKET</h3>
+        </a>
+    </div>
+    <div class="header-bottom">
+        <ul class="header-bottom-item">
+            <a href="aboutus.html"><li>ABOUT US</li></a>
+            <a href="investing.html"><li>INVESTING</li></a>
+            <a href=""><li>TRADE</li></a>
+            <a href="research.html"><li>RESEARCH</li></a>
+            <a href="blog.html"> <li>BLOG</li></a>
+            <a href="contacts.html"><li class="header-bottom-last">CONTACTS</li></a>
+        </ul>
+    </div>
+</header>
+
+<script>
+    $(function(){
+        $(".header-up-down").click(function(){
+            $(".header-top").slideToggle(200);
+        });
+//        $(".header-bottom").onmouseup(function(){
+//            $("li").css("background-color":"yellow");
+//        })
+//        $(".header-bottom li").onmousemove(function(){
+//            $("li").css({"background-color":"yellow"});
+//        });
+
+    })
+</script>
 
 <div id="about" class="template-about">
     <section class="about-content">
         <div class="about-content-list">
             <div class="about-content-left">
-                <div class="about-title">OVERVIEW</div>
+                <div class="revealator-slideright about-title">OVERVIEW</div>
                 <div class="about-left-bottom">
                     <img src="images/jiazai.png">
-                    <span class="span-little">This program is designed to enable people to apply their
+                    <span class="revealator-slideright span-little">This program is designed to enable people to apply their
                         abilities, to use and improve their capacity, to implement their desires to become an
                         entrepreneur or enlarge, escalate their business by combining different assets:real estate,
                         equipment, land, business ideas, financial capital and active business people.</span>
                 </div>
             </div>
             <div class="about-content-right">
-                <div class="about-title">OUR INVESTMENT POLICIES</div>
-                <div class="about-right-top">
+                <div class="revealator-slideleft about-title">OUR INVESTMENT POLICIES</div>
+                <div class="revealator-slideleft about-right-top">
                     <span class="right-up">A REAL OPPORTUNITY TO OPEN BUSINESS WITHOUT GETTING INTO BANKING DEBTS.</span>
                     <span class="span-little">The aim of this project is to bring together inefficiently
                         used objects (land, warehouses, shops, stores, offices, as well as agricultural equipment,
                         retail, office, construction, etc.), adding to it business ideas and directly investing them,
                         outcome is a result.</span>
                 </div>
-                <div class="about-right-bottom">
+                <div class="revealator-slideleft about-right-bottom">
                     <ul class="">
                         <li class="">
                             <img src="images/yes.png">
@@ -50,7 +140,14 @@ require 'header.php'; ?>
             <div class="">
                 <ul>
                     <li>
-                        <img src="images/about1.png">
+<!--                        <img src="images/about1.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/about1.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <div class="about-list-sec-title">
                             <a href="">BRADLEY GROSH<br></a>
                             <span class="">PRESIDENT</span>
@@ -61,7 +158,14 @@ require 'header.php'; ?>
                         </div>
                     </li>
                     <li class="li-2">
-                        <img src="images/about2.png">
+<!--                        <img src="images/about2.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/about2.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <div class="about-list-sec-title">
                             <a href="">GLORIA MANN<br></a>
                             <span class="">CHIEF OF STAFF</span>
@@ -72,7 +176,14 @@ require 'header.php'; ?>
                         </div>
                     </li>
                     <li class="li-3">
-                        <img src="images/about3.png">
+<!--                        <img src="images/about3.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/about3.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <div class="about-list-sec-title">
                             <a href="">SAM KROMSTAIN<br></a>
                             <span class="">DEPUTY CHIEF OF STAFF</span>
@@ -83,7 +194,14 @@ require 'header.php'; ?>
                         </div>
                     </li>
                     <li>
-                        <img src="images/about4.png">
+<!--                        <img src="images/about4.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/about4.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <div class="about-list-sec-title">
                             <a href="">INGA NORTH<br></a>
                             <span class="">SENIOR ADVISOR</span>
@@ -94,7 +212,14 @@ require 'header.php'; ?>
                         </div>
                     </li>
                     <li>
-                        <img src="images/about5.png">
+<!--                        <img src="images/about5.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/about5.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <div class="about-list-sec-title">
                             <a href="">ALAN SMITH<br></a>
                             <span class="">VICE PRESIDENT, INSURANCE</span>
@@ -105,7 +230,14 @@ require 'header.php'; ?>
                         </div>
                     </li>
                     <li class="li-6">
-                        <img src="images/about6.png">
+<!--                        <img src="images/about6.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/about6.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <div class="about-list-sec-title">
                             <a href="">LAURA STEGNER<br></a>
                             <span class="">VICE PRESIDENT, INSURANCE</span>
@@ -116,7 +248,14 @@ require 'header.php'; ?>
                         </div>
                     </li>
                     <li class="li-7">
-                        <img src="images/about7.png">
+<!--                        <img src="images/about7.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/about7.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <div class="about-list-sec-title">
                             <a href="">LEWIS TOMPSON<br></a>
                             <span class="">VICE PRESIDENT, INSURANCE</span>
@@ -127,7 +266,14 @@ require 'header.php'; ?>
                         </div>
                     </li>
                     <li>
-                        <img src="images/about8.png">
+<!--                        <img src="images/about8.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/about8.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <div class="about-list-sec-title">
                             <a href="">JESSICA PRISTON<br></a>
                             <span class="">VICE PRESIDENT, INSURANCE</span>
@@ -146,10 +292,10 @@ require 'header.php'; ?>
             <img src="images/adam.png">
         </div>
         <div class="about-item-list">
-            <div class="about-title">OUR HISTORY</div>
-            <div class="about-item-bottom">
+            <div class="revealator-slideright about-title">OUR HISTORY</div>
+            <div class="revealator-slideright about-item-bottom">
                 <img src="images/mt-0245-about-icon9.jpg">
-                <div class="about-item-right">
+                <div class="revealator-slideleft about-item-right">
                     <span class="about-item-right-top">TODAY OUR INVESTMENT COMPANY IS ONE OF THE STRONGEST
                         TEAMS, WORKING IN THE INVESTMENT INDUSTRY</span>
                     <span class="about-item-right-bottom">The company employs more than 80 people, including
@@ -166,6 +312,26 @@ require 'header.php'; ?>
     </section>
 </div>
     <div class="point-up">
-        <a href="aboutus.php"><i class="fa fa-angle-up"></i></a>
+        <a href="aboutus.html"><i class="fa fa-angle-up"></i></a>
     </div>
-<?php require 'footer.php'; ?>
+
+<script type="text/javascript" src="lib/OwlCarousel2/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
+<section class="footer">
+    <div class="footer-logo">
+        <a href="" class="">
+            <img src="images/bottom.png">
+        </a>
+        <a href="" class="">
+            <div class="stock-bottom">Stocx</div>
+            <h5>STOCK MARKET</h5>
+        </a>
+        <div class="copyright">© 2016 |
+            <a class="turn-yel" href="">Privacy Policy</a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

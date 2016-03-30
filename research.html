@@ -1,5 +1,95 @@
-<?php //首页
-require 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport"
+          content="width=device-width,initial-scale=1.0,
+                maximum-scale=1.0,user-scalable=no">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="lib/HTML5-Reset/assets/css/reset.css" />
+    <link rel="stylesheet" href="lib/OwlCarousel2/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="lib/OwlCarousel2/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fm.revealator.jquery.css">
+    <script src="js/fm.revealator.jquery.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/imagehover.css" />
+    <link type="text/css" rel="stylesheet" href="css/hover.css">
+</head>
+<body>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+
+<header class="header">
+    <div class="header-top">
+        <div class="header-top-left">
+            <a href="" class="">
+                <img src="images/mouse.png">
+            </a>
+            <div class="header-con">
+                Investment Company Respo...<a href="">#56053</a>
+            </div>
+        </div>
+        <div class="header-top-middle">
+            <a class="computer" href="">
+                <img src="images/computer.png">
+            </a>
+            <a class="ipad" href="">
+                <img src="images/ipad.png">
+                <img src="images/ipad-cir.png">
+            </a>
+            <a class="" href="">
+                <img src="images/iphone.png">
+                <img src="images/iphone-cir.png">
+            </a>
+        </div>
+        <div class="header-top-right">
+            <a class="top-left" href="">Single Site License</a>
+            <a class="top-right" href="">$199
+            </a>
+            <img src="images/buynow.png">
+        </div>
+    </div>
+    <div  class="header-up-down">
+        <img src="images/up.png">
+    </div>
+    <div class="header-middle">
+        <a href="" class="">
+            <img src="images/bottom2.png">
+        </a>
+        <a href="" class="">
+            <div class="stock-top">Stocx</div>
+            <h3>STOCK MARKET</h3>
+        </a>
+    </div>
+    <div class="header-bottom">
+        <ul class="header-bottom-item">
+            <a href="aboutus.html"><li>ABOUT US</li></a>
+            <a href="investing.html"><li>INVESTING</li></a>
+            <a href=""><li>TRADE</li></a>
+            <a href="research.html"><li>RESEARCH</li></a>
+            <a href="blog.html"> <li>BLOG</li></a>
+            <a href="contacts.html"><li class="header-bottom-last">CONTACTS</li></a>
+        </ul>
+    </div>
+</header>
+
+<script>
+    $(function(){
+        $(".header-up-down").click(function(){
+            $(".header-top").slideToggle(200);
+        });
+//        $(".header-bottom").onmouseup(function(){
+//            $("li").css("background-color":"yellow");
+//        })
+//        $(".header-bottom li").onmousemove(function(){
+//            $("li").css({"background-color":"yellow"});
+//        });
+
+    })
+</script>
 
 <div id="research" class="template-research">
     <section class="research-content">
@@ -54,12 +144,12 @@ require 'header.php'; ?>
             </div>
         </div>
         <div class="research-content-bottom">
-            <span class="research-title">INVESTMENT EDUCATION AND RESEARCH</span>
+            <span class="revealator-slideright research-title">INVESTMENT EDUCATION AND RESEARCH</span>
             <div class="content-bottom-sec">
-                <div class="">
+                <div class="revealator-slideright">
                     <img src="images/mt-0245-research-img2.jpg">
                 </div>
-                <div class="content-bottom-mid">
+                <div class="revealator-slideright content-bottom-mid">
                     <span class="span-top">TODAY OUR INVESTMENT COMPANY IS ONE OF THE STRONGEST TEAMS,
                         WORKING IN THE INVESTMENT INDUSTRY.</span>
                     <span class="span-bottom">The company employs more than 80 people, including investment bankers,
@@ -71,7 +161,7 @@ require 'header.php'; ?>
                         analytics and the latest technological solutions allow us to see the unique market
                         opportunities. Using our benefits, we offer the best investment decisions.</span>
                 </div>
-                <div class="content-bottom-right">
+                <div class="revealator-slideleft content-bottom-right">
                     <ul class="">
                         <li class="">
                             <img src="images/yes.png"><a href=""><span>TRADING PLATFORMS</span></a>
@@ -105,21 +195,43 @@ require 'header.php'; ?>
             <div class="item-top-list">
                 <ul class="">
                     <li>
-                        <img src="images/research1.png">
+<!--                        <img src="images/research1.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/research1.png">
+<!--                            class="hvr-shrink"-->
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <span class="li-title"><a href="">MAKE INVESTMENTS<br> PROPERLY<br></a></span>
                         <span class="li-bottom">Every millionaire knows: properly investing only 10% of your
                             income you can become a billionaire in just a few years. With our help you can
                             learn all about the most profitable types of investing.</span>
                     </li>
                     <li class="li-center">
-                        <img src="images/research2.png">
+<!--                        <img src="images/research2.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/research2.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <span class="li-title"><a href="">IMPORTANT<br> QUALITY<br></a></span>
                         <span class="li-bottom">The ability to manage money competently is especially
                             valuable quality in the conditions of financial crisis, when the purchasing power
                             of the population is shrinking, inflation is rising.</span>
                     </li>
                     <li>
-                        <img src="images/research3.png">
+<!--                        <img src="images/research3.png">-->
+                        <figure class="imghvr-shutter-out-diag-1">
+                            <img src="images/research3.png">
+                            <figcaption>
+                                <i class="fa fa-expand"></i>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
                         <span class="li-title"><a href="">HELP YOUR’S<br> DEVELOPMENT<br></a></span>
                         <span class="li-bottom">The realizability of our solutions is provided by
                             mandatory training of personnel for the introduction of the client company,
@@ -131,7 +243,7 @@ require 'header.php'; ?>
         <div class="research-item-bottom">
             <span class="research-title">QUICK LINKS</span>
             <div class="item-bottom-list">
-                <ul class="">
+                <ul class="revealator-slidedown">
                     <li class="">
                         <img src="images/yes.png"><a href=""><span>TRADING PLATFORMS</span></a>
                     </li>
@@ -145,7 +257,7 @@ require 'header.php'; ?>
                         <img src="images/yes.png"><a href=""><span>LIGHTSPEED INSTITUTIONAL</span></a>
                     </li>
                 </ul>
-                <ul class="">
+                <ul class="revealator-slidedown">
                     <li class="">
                         <img src="images/yes.png"><a href=""><span>TRADE-IDEAS</span></a>
                     </li>
@@ -159,8 +271,8 @@ require 'header.php'; ?>
                         <img src="images/yes.png"><a href=""><span>ADVANCED CHARTING</span></a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="">
+                <ul class="revealator-slidedown">
+                    <li>
                         <img src="images/yes.png"><a href=""><span>COMPLEX OPTIONS TRADING</span></a>
                     </li>
                     <li class="">
@@ -178,7 +290,26 @@ require 'header.php'; ?>
     </section>
 </div>
     <div class="point-up">
-        <a href="research.php"><i class="fa fa-angle-up"></i></a>
+        <a href="research.html"><i class="fa fa-angle-up"></i></a>
     </div>
 
-<?php require 'footer.php'; ?>
+<script type="text/javascript" src="lib/OwlCarousel2/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
+<section class="footer">
+    <div class="footer-logo">
+        <a href="" class="">
+            <img src="images/bottom.png">
+        </a>
+        <a href="" class="">
+            <div class="stock-bottom">Stocx</div>
+            <h5>STOCK MARKET</h5>
+        </a>
+        <div class="copyright">© 2016 |
+            <a class="turn-yel" href="">Privacy Policy</a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

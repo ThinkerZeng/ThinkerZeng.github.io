@@ -634,6 +634,14 @@
   display: block;
   margin: 30px 0;
 }
+#investing.template-investing .investing-list .investment-list .investment-list-item .investing-content-item-ul li .services-img {
+  width: 371px;
+  height: 209px;
+  overflow: hidden;
+}
+#investing.template-investing .investing-list .investment-list .investment-list-item .investing-content-item-ul li .services-img:hover img {
+  -webkit-transform: scale(1.2);
+}
 #investing.template-investing .investing-list .investment-list .investment-list-item .investing-content-item-ul .ul-middle {
   margin: 40px 25px 0 25px;
 }
@@ -777,7 +785,7 @@
 #research.template-research .research-item .research-item-top .item-top-list li {
   text-align: center;
   background-color: #F2F2F2;
-  width: 372px;
+  width: 371px;
   float: left;
 }
 #research.template-research .research-item .research-item-top .item-top-list li span {
@@ -794,6 +802,16 @@
   color: #CACACA;
   font-size: 15px;
   margin-bottom: 50px;
+}
+#research.template-research .research-item .research-item-top .item-top-list li .imghvr-shutter-out-diag-1 i {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 60px;
+}
+#research.template-research .research-item .research-item-top .item-top-list li .imghvr-shutter-out-diag-1:hover img {
+  display: block;
+  -webkit-transform: scale(1.1);
 }
 #research.template-research .research-item .research-item-bottom .item-bottom-list ul {
   width: 390px;
@@ -1075,6 +1093,16 @@
 }
 #about.template-about .about-content .about-list-sec ul li .contacts-content-top a:hover {
   color: #6A6A6A;
+}
+#about.template-about .about-content .about-list-sec ul .imghvr-shutter-out-diag-1 i {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 75px;
+}
+#about.template-about .about-content .about-list-sec ul .imghvr-shutter-out-diag-1:hover img {
+  display: block;
+  -webkit-transform: scale(1.1);
 }
 #about.template-about .about-item {
   height: 920px;

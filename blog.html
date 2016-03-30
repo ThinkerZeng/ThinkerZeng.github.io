@@ -1,5 +1,96 @@
-<?php //首页
-require 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport"
+          content="width=device-width,initial-scale=1.0,
+                maximum-scale=1.0,user-scalable=no">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="lib/HTML5-Reset/assets/css/reset.css" />
+    <link rel="stylesheet" href="lib/OwlCarousel2/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="lib/OwlCarousel2/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fm.revealator.jquery.css">
+    <script src="js/fm.revealator.jquery.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/imagehover.css" />
+    <link type="text/css" rel="stylesheet" href="css/hover.css">
+</head>
+<body>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+
+<header class="header">
+    <div class="header-top">
+        <div class="header-top-left">
+            <a href="" class="">
+                <img src="images/mouse.png">
+            </a>
+            <div class="header-con">
+                Investment Company Respo...<a href="">#56053</a>
+            </div>
+        </div>
+        <div class="header-top-middle">
+            <a class="computer" href="">
+                <img src="images/computer.png">
+            </a>
+            <a class="ipad" href="">
+                <img src="images/ipad.png">
+                <img src="images/ipad-cir.png">
+            </a>
+            <a class="" href="">
+                <img src="images/iphone.png">
+                <img src="images/iphone-cir.png">
+            </a>
+        </div>
+        <div class="header-top-right">
+            <a class="top-left" href="">Single Site License</a>
+            <a class="top-right" href="">$199
+            </a>
+            <img src="images/buynow.png">
+        </div>
+    </div>
+    <div  class="header-up-down">
+        <img src="images/up.png">
+    </div>
+    <div class="header-middle">
+        <a href="" class="">
+            <img src="images/bottom2.png">
+        </a>
+        <a href="" class="">
+            <div class="stock-top">Stocx</div>
+            <h3>STOCK MARKET</h3>
+        </a>
+    </div>
+    <div class="header-bottom">
+        <ul class="header-bottom-item">
+            <a href="aboutus.html"><li>ABOUT US</li></a>
+            <a href="investing.html"><li>INVESTING</li></a>
+            <a href=""><li>TRADE</li></a>
+            <a href="research.html"><li>RESEARCH</li></a>
+            <a href="blog.html"> <li>BLOG</li></a>
+            <a href="contacts.html"><li class="header-bottom-last">CONTACTS</li></a>
+        </ul>
+    </div>
+</header>
+
+<script>
+    $(function(){
+        $(".header-up-down").click(function(){
+            $(".header-top").slideToggle(200);
+        });
+//        $(".header-bottom").onmouseup(function(){
+//            $("li").css("background-color":"yellow");
+//        })
+//        $(".header-bottom li").onmousemove(function(){
+//            $("li").css({"background-color":"yellow"});
+//        });
+
+    })
+</script>
+
 <div id="blog" class="template-blog">
     <section class="blog-content">
         <div class="blog-content-list">
@@ -90,6 +181,26 @@ require 'header.php'; ?>
     </section>
 </div>
 <div class="point-up">
-    <a href="blog.php"><i class="fa fa-angle-up"></i></a>
+    <a href="blog.html"><i class="fa fa-angle-up"></i></a>
 </div>
-<?php require 'footer.php'; ?>
+
+<script type="text/javascript" src="lib/OwlCarousel2/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
+<section class="footer">
+    <div class="footer-logo">
+        <a href="" class="">
+            <img src="images/bottom.png">
+        </a>
+        <a href="" class="">
+            <div class="stock-bottom">Stocx</div>
+            <h5>STOCK MARKET</h5>
+        </a>
+        <div class="copyright">© 2016 |
+            <a class="turn-yel" href="">Privacy Policy</a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
